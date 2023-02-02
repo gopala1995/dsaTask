@@ -56,7 +56,7 @@ const obj = [
     }
 ]
 
-const findEmployee  = obj.map((el) => {
+const findEmployee  = obj.filter((el) => {
    if( el.fullTimeEmployee == true &&  el.designation ==="SD2"){
       return el
    }
